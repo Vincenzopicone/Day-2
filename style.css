@@ -1,0 +1,16 @@
+#title {
+    background-color:salmon; padding: 0%; margin: 0%; padding-left: 0.5%;
+}
+
+#menu-style {
+    background-color: aquamarine; padding: 0%; margin: 0%; padding-left: 2%;
+}
+
+#footercolor {
+    background:linear-gradient(salmon, aquamarine ); 
+    padding: 0%; 
+    padding-left: 2%; 
+    margin: 0%;
+}
+.myTable { width: 45% }
+

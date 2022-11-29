@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sviluppo di una pagina web - Blog Epicode</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 <main>
     <img src="./assets/img/logo.svg" alt="Logo-Epicode" width="250">
-    <h1> EPICODE - Il blog dei developers </h1>
-      <ul>
+    <h1 id="title"> EPICODE - Il blog dei developers </h1>
+      <ul id="menu-style">
         <li> <a href="#">MENU</a></li>
         <li> <a href="#">ARTICOLI</a></li>
         <li> <a href="#">JOB</a></li>
       </ul>
 </main> 
-<hr>   
 <body>
   <h2> Come creare un template per i post </h2>
-  <h5> <b>di Mario Rossi - pubblicato il 25-10-2020 </b></h5> 
-  <section> La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine. </section>
+  <h5> <b>di <em> Mario Rossi </em> - pubblicato il 25-10-2020 </b></h5> 
+  <section id="bodycolor"> La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine. </section>
     <p> Le aree saranno quindi suddivise in:</p>
       <ul>
         <li>Contenuti di intestazione del tag &lt; Header &gt; </li>
@@ -27,7 +27,7 @@
         <li>Contenuti di fine pagina comuni, da inserire nel tag &lt; Footer &gt;</li>
         <li>Formattazione del codice</li>
       </ul>
-  <section> Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+  <section id="bodycolor"> Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
     <ul>
       <li> Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
       <li> Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
@@ -36,15 +36,15 @@
     </ul>
   </section>
   <hr>
-  <table>
-    <thead>Diffusione dei CSS</thead>
+  <table class="myTable">
+    <thead><b>Diffusione dei CSS</b></thead>
     <tr><td>Anno</td><td>% di utilizzo</td><td>Supporto Browsers</td></tr>
     <tr><td>2000</td><td>20%</td><td>17%</td></tr>
     <tr><td>2002</td><td>35%</td><td>22%</td></tr>
     <tr><td>2004</td><td>45%</td><td>42%</td></tr>
     <tr><td>2008</td><td>80%</td><td>51%</td></tr>
     <tr><td>2012</td><td>100%</td><td>76%</td></tr>
-    </table>
+  </table>
   <p> Un test di validazione potrà essere fatto tramite il <a href="https://www.html.it/pag/16055/tabella-struttura-di-base/" target="_blank"> tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro: </p>
     <iframe width="727" height="409" src="https://www.youtube.com/embed/AV5qRtBEtGQ" title="Chi sono i web developer? Le risposte alle 5 domande che tutti vogliono sapere sui programmatori web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h1> Novità </h1>
@@ -70,8 +70,7 @@
    Data: 30-9-2020
   </p>
 </body>
-<hr>
-<footer>
+<footer id="footercolor">
   <h4> Blog Epicode &copy; 2021 </h4>
   <h4> Testata online di Mario Rossi, registrata con prot. n213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233 <br> <a href="mailto:info@epicode.school">info@epicode.school</a> </h4>  
 </footer>
