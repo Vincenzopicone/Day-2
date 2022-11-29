@@ -12,7 +12,6 @@
     padding-left: 2%; 
     margin: 0%;
 }
-.myTable { width: 45%;
-           border-collapse: collapse; } 
-td, th {   border: 1px solid rgb(0, 0, 0);   padding: 8px; }
+.myTable { border-collapse: collapse; } 
+td, th { border: 1px solid rgb(0, 0, 0);   padding: 8px; }
 
